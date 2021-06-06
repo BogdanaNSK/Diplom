@@ -4,10 +4,12 @@
 header {
     display: flex;
     padding-top: 52px;
+    padding-bottom: 27px;
 }
 .top-menu {
     list-style-type: none;
-    justify-content: space-between;
+    
+    
 }
 .top-menu:after {
     content: "";
@@ -61,7 +63,7 @@ header {
     opacity: 1;
 }
 .menu-info {
-    display: flex;
+    display: block;
     position: relative;
     width: 30px;
     height: 30px;
@@ -69,8 +71,15 @@ header {
     padding-left: 482px;
     opacity: 0.8;
 }
-.nav-info .nav-item {
+.menu-info .nav-item {
     position: relative;
+}
+.photo {
+    position: absolute;
+    width: 1325px;
+    height: 852px;
+    left: 390px;
+    top: 107px;
 }
 .title-h1 {
     font-size: 48px;
