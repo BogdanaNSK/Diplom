@@ -93,7 +93,17 @@ header {
     font-size: 18px;
     font-style: normal;
 }
+.photo {
+    position: absolute;
+    width: 996px;
+    height: 850px;
+}
 .podrobno {
     font-size: 16px;
     font-style: normal;
+}
+.circle-arrow {
+    position: absolute;
+    width: 52px;
+    height: 53px;
 }
